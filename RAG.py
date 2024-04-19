@@ -10,7 +10,6 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 import os
 
-#os.environ["OPENAI_API_KEY"] = ""
 
 # Clone
 repo_path = "C:/Users/santi/OneDrive/Escritorio/Santiago/AREP+/CodeRAG"
