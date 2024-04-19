@@ -5,6 +5,10 @@ from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone, PodSpec
 import os
 
+os.environ["OPENAI_API_KEY"] = ""
+os.environ["PINECONE_API_KEY"] = ""
+os.environ["PINECONE_ENV"] = ""
+
 def loadText():
     loader = TextLoader("quantum.txt")
     documents = loader.load()
